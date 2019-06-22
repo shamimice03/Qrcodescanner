@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".login_page">
+    tools:context=".Login_page">
 
   <LinearLayout
       android:layout_margin="50px"
@@ -15,6 +15,7 @@
       android:layout_height="match_parent">
 
       <EditText
+          android:id="@+id/username"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:hint="username"
@@ -24,6 +25,7 @@
 
 
       <EditText
+          android:id="@+id/userID"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_gravity="center"
